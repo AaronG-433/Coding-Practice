@@ -1,12 +1,12 @@
 # Coding-Practice
 # Top Leetcode questions to solve
 
-  This list of problems  was posted on Dec 30, 2018 in  **Blind**  *Curated List of Top 75 LeetCode Questions*.
+  This list of problems  was posted on Dec 30, 2018 in  **Blind**  *Curated List of Top 75 LeetCode Questions*. (https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
   I am using this to help improve my algorithm skills, and will be adding interesting problems.
 
 # Array
 
-- [X] [Two Sum](https://leetcode.com/problems/two-sum/) (Easy) (April 28, 2021)
+- [X] [Two Sum](https://leetcode.com/problems/two-sum/) (Easy)
 - [X] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [X] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [X] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
@@ -16,11 +16,11 @@
 - [X] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [X] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium) (May 12, 2021)
-- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Medium) (May 13, 2021)
+- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Medium)
 
 # Stack
 
-- [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) (Easy) (April 28, 2021)
+- [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) (Easy)
 
 # Binary
 
@@ -32,7 +32,7 @@
 
 # Dynamic Programming
 
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy) (May 15, 2021)
+- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
@@ -46,8 +46,8 @@
 
 # Graph
 
-- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/) (Easy/Medium) (May 22, 2021)
-- [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium) (Kahn's Algorithm and DFS) (May 26, 2021`)
+- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/) (Easy/Medium)
+- [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Medium) (Kahn's Algorithm and DFS)
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
@@ -75,14 +75,14 @@
 
 # Matrix
 
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) (O(1) space is tricky) (May 19, 2021)
+- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) (O(1) space is tricky)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 
 # Strings
 
-- [ ]  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Easy) (April 28, 2021)
+- [ ]  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Easy)
 - [ ]  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ]  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ]  [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -96,9 +96,9 @@
 # Tree
 
 - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [ ] [Same Tree](https://leetcode.com/problems/same-tree/) (Easy) (May 18, 2021)
-- [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy) (Iterative == Hard) (May 18, 2021)
-- [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (Hard) (May 18, 2021)
+- [ ] [Same Tree](https://leetcode.com/problems/same-tree/) (Easy)
+- [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Easy) (Iterative == Hard)
+- [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (Hard)
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) (Medium) (May 18, 2021)
@@ -116,3 +116,9 @@
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+
+# HackerRank Interview Preparation Kit
+
+   This is an additional resource I found with common interview questions and concepts.
+   (https://www.hackerrank.com/interview/interview-preparation-kit)

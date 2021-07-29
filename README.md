@@ -15,8 +15,8 @@
 - [X] [Find Minimum in Rotated Sorted Array ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [X] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [X] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium) (May 12, 2021)
-- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Medium)
+- [X] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium) (May 12, 2021)
+- [X] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) (Hard)
 
 # Stack
 

@@ -20,7 +20,7 @@
 
 # Stack
 
-- [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) (Easy)
+- [X] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) (Medium)
 
 # Binary
 

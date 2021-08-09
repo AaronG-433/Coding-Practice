@@ -14,7 +14,7 @@ import java.util.*;
 */
 
 
-class Solution
+class Solution_3_Memoization
 {
    // Declare global variable for recursive calls (1000+1 for largest possible strings)
    int longestCommon[][] = new int [1000+1][1000+1];
@@ -28,11 +28,11 @@ class Solution
       if (i == 0 || w == 0)
          return 0;
 
-      // Value already computed
+      // Value already computed so reference it
       if (longestCommon[i][w] != -1)
          return longestCommon[i][w];
 
-      // Compute value
+      // Compute value and store it
       if (globalText1.charAt(i-1) == globalText2.charAt(w-1))
          return longestCommon[i][w] = 1 + maxCommonSub(i-1, w-1);
       else

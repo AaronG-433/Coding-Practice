@@ -9,7 +9,12 @@ class Solution
 
    public int rob(int[] nums)
    {
-      return tabulation(nums);
+      // return tabulation(nums);
+
+      int[] memo = new int[nums.length];
+      Arrays.fill(memo, -1);
+      int rob1
+
    }
 
    // Bottom up
@@ -24,28 +29,26 @@ class Solution
       // Since we have a loop of houses, we know we can't have the first and last houses
       // So, do house robber from 0 to length-2 and then 1 to length-1 to account for this
       // Return the max of these two
-      
-      // Start from first house at [0] to 2nd to last house
-      int[] table = new int[nums.length];
-      // int prev1 = 0;
-      // int prev2 = nums[0];
-      table[0] = nums[0];
-      table[1] = Math.max(nums[0], nums[1]);
-      for (int i=2; i <= nums.length-2; i++)
-         table[i] = Math.max(table[i-1], nums[i] + table[i-2]);
-      
-      int max = table[nums.length-2];
 
-      // Start from second house to last house
-      Arrays.fill(table, 0);
-      table[1] = nums[1];
-      table[2] = Math.max(nums[1], nums[2]);
-      for (int i=3; i <= nums.length-1; i++)
+      int rob1 = robMax(nums, 0, nums.length-2);
+      int rob2 = robMax(nums, 1, nums.length-1);
+
+      return Math.max(rob1, rob2);
+   }
+
+   // Return most money we can rob from start to end interval of houses
+   private int robMax(int[] nums, int start, int end)
+   {
+      int prev2 = nums[start];
+      int prev1 = Math.max(nums[start], nums[start+1]);
+      for (int i=start+2; i <= end; i++)
       {
-         table[i] = Math.max(table[i-1], nums[i] + table[i-2]);
+         int current = Math.max(prev1, nums[i] + prev2);
+         prev2 = prev1;
+         prev1 = current;
       }
 
-      return Math.max(max, table[nums.length-1]);
+      return prev1;
    }
 
    private int memoization (int[] memo, int[] nums, int house)

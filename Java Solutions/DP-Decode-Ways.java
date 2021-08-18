@@ -20,9 +20,6 @@ class Solution
       if (s.charAt(0) == '0')
          return 0;
 
-      int[] table = new int[s.length()];
-      table[0] = 1;
-
       /* Ex: 11126
          1
          1,1  11
@@ -36,24 +33,40 @@ class Solution
       // This is because if number is two digits, you add this to the end of the possible
          // ways to decode BEFORE you include the single digit
 
-      //// TODO: add initial value for length of 1 and 2
-      //// TODO: perform using array or one/twoback int trackers
-      int oneBack = 0;
-      int twoBack = 0;
-      for (int i=0; i < s.length(); i++)
+      int oneBack = 1;
+      int twoBack = 1;
+      for (int i=1; i < s.length(); i++)
       {
+         int count = 0;
+         
          // Get char and convert to int
          int current = Character.getNumericValue(s.charAt(i));
 
-         // If current is 0, don't add number of ways
+         // Check if valid single digit
+         if (current != 0)
+            count += oneBack;
 
-         // If previous+current >26, don't add
+         // Check if next char is 0 and skip double check if so
+            // This is because current int will be needed to satisfy the coming 0
+         if (i != s.length()-1 && s.charAt(i+1) == '0')
+         {
+            // Update back values
+            twoBack = oneBack;
+            oneBack = count;
+            continue;
+         }
 
-         // 
+         // Check if valid double digit (no 0 as first char and 0 < doubleDigit <= 26)
+         current = Integer.parseInt(s, i-1, i+1, 10);
+         if (s.charAt(i-1) != '0' && 0 < current && current <= 26)
+            count += twoBack;
 
+         // Update back values
+         twoBack = oneBack;
+         oneBack = count;
       }
 
-      return 0;
+      return oneBack;
    }
 
    private int memoization (String s, int[] memo, int index, int previous)

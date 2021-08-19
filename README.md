@@ -1,6 +1,7 @@
 # Coding-Practice
 # Top Leetcode questions to solve
 
+  
   This list of problems  was posted on Dec 30, 2018 in  **Blind**  *Curated List of Top 75 LeetCode Questions*. (https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
   I am using this to help improve my algorithm skills, and will be adding interesting problems.
 
@@ -10,7 +11,7 @@
 - [X] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [X] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [X] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- [X|] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [X] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [X] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [X] [Find Minimum in Rotated Sorted Array ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [X] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
@@ -82,7 +83,7 @@
 
 # Strings
 
-- [ ]  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Easy)
+- [X]  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Easy)
 - [ ]  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ]  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ]  [Valid Anagram](https://leetcode.com/problems/valid-anagram/)

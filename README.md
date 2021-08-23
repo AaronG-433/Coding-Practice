@@ -7,10 +7,10 @@
 
 # Array
 
-- [X] [Two Sum](https://leetcode.com/problems/two-sum/) (Easy)
-- [X] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [X] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [X] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [XX] [Two Sum](https://leetcode.com/problems/two-sum/) (Easy)
+- [XX] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [XX] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [XX] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [X] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [X] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [X] [Find Minimum in Rotated Sorted Array ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
@@ -84,10 +84,10 @@
 # Strings
 
 - [X]  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Easy)
-- [ ]  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [X]  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ]  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-- [ ]  [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [ ]  [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [X]  [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [X]  [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ]  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [ ]  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [ ]  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)

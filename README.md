@@ -89,8 +89,8 @@
 - [X]  [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [X]  [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [X]  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [ ]  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ]  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [X]  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [X]  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) (Leetcode Premium)
 
